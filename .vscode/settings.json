@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/37546cf0-afcc-4512-a578-97afd37978c3/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/angularjoaoapp"
+}

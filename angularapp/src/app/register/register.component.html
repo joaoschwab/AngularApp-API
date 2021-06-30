@@ -1,0 +1,21 @@
+<!-- Default form subscription -->
+<form [formGroup]="usuarioForm" (submit)="usuarioSubmit()" class="text-center border border-light p-5">
+
+    <p class="h4 mb-4">Cadastro</p>
+  
+    <p>Criando um cadastro no banco com a api</p>
+
+  
+    <input type="text" formControlName="nome"id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Nome">
+
+    <input type="text" formControlName="sobrenome" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Sobrenome">
+
+    <input type="number" formControlName="idade" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Idade">
+
+
+    <!-- Sign in button -->
+    <button mdbBtn color="info" block="true" type="submit">Cadastrar</button>
+  
+  
+  </form>
+  <!-- Default form subscription -->
